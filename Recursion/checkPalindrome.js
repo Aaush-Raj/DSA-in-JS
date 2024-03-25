@@ -17,3 +17,22 @@ function checkPalindrome(n,t=0) {
   console.log(reversed_value)
   if(num === reversed_value)console.log( true);
   else(console.log( false));
+
+
+
+  const checkPalindrome_singlePointerApproach = (left, len) => {
+    if (left >= len / 2) {
+      return true;
+    }
+    if (word[left] === word[len - left]) {
+      return checkPalindrome_singlePointerApproach(left + 1, len);
+    } else {
+      return false;
+    }
+  
+    //
+  };
+  const word = "madam";
+  
+  console.log(checkPalindrome_singlePointerApproach(0, word.length - 1));
+  

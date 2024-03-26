@@ -50,6 +50,7 @@ function mergeSort(arr) {
 
 
   // EASY IMPLEMENTATION OF MERGE SORT WITH SHIFT ARRAY FUNCTION, IT MAKES IT EASIER TO HANDLE THE MERGE PART OF SORTING
+//  https://youtu.be/wXZyuJqNk9U?si=XQLHqq-fOD-53keW  WATCH THIS FOR CLEARITY!
 
   function mergeSort(arr ) {
     if(arr.length <2)return arr;

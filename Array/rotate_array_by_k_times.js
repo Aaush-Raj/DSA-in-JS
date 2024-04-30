@@ -60,4 +60,15 @@ function reverseArray(nums, left, right) {
   const k = 2;
   const rotated = rotateRight(myArray, k);
   console.log(rotated); // Output: [4, 5, 1, 2, 3]
+
+
+
+  // MOST SIMPLE JS SOLUTION TO THIS QUESTION::::
+  var rotate = function(nums, k) {
+    k = k % nums.length 
+   nums.unshift(...nums.splice(-k));
+
+ 
+    
+};
   
